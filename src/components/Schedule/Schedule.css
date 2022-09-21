@@ -1,0 +1,119 @@
+#schedule {
+    background: var(--color-gray);
+    position: relative;
+    gap: 5rem;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+    gap: 1rem
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.top > span {
+    font-weight: 900;
+    font-size: 3rem;
+    align-self: flex-start;
+}
+
+.schedule-btn {
+    font-size: 1.3rem;
+    align-self: flex-end;
+    padding: .75rem 2rem;
+}
+
+.schedule-cards {
+    /* position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    height: 400px;
+    margin-top: 1.5rem;
+    padding: 0 1rem;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center; */
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.schedule-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: fit-content;
+}
+
+.schedule-card>div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 1rem 2rem;
+    border-radius: 25px 25px 0 0;
+}
+
+.schedule-card>div:first-child>span:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.schedule-card>:last-child {
+    background: #fff;
+    border-radius: 0 0 25px 25px;
+}
+
+.schedule-card>:last-child>div {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    padding: 0.5rem 2rem;
+}
+
+.schedule-card:nth-child(1)>div:first-child {
+    background: var(--color-light-pink);
+}
+
+.schedule-card:nth-child(2)>div:first-child {
+    background: var(--color-light-yellow);
+}
+
+.schedule-card:nth-child(3)>div:first-child {
+    background: var(--color-light-blue);
+}
+
+.schedule-card>.times {
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.wave-top {
+    width: 100%;
+    position: absolute;
+    top: -1rem;
+}
+
+.wave-bottom {
+    width: 100%;
+    position: absolute;
+    bottom: -3rem;
+}
+
+
+

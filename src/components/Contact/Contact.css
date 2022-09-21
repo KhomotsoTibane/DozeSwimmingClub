@@ -1,0 +1,79 @@
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+    gap:2rem
+}
+
+
+.contact__left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 45%; */
+}
+.contact__left> img{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 25px;
+}
+
+.contact__right{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.contact__right>h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+
+.contact__right > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+
+}
+
+.contact__right > div >svg{
+    height: 3rem;
+    width: 3rem;
+}
+
+.contact__right > div:nth-of-type(1) > svg
+{
+ fill: var(--color-light-pink);
+}
+
+.contact__right > div:nth-of-type(2) > svg
+{
+ fill: var(--color-light-yellow);
+}
+
+.contact__right > div:nth-of-type(3) > svg
+{
+ fill: var(--color-light-blue);
+}
+
+.contact__right > div > div{
+    display: flex;
+    flex-direction: column;
+    gap:.2rem;
+    border-left: 1px solid black;
+    padding-left: .5rem;
+}
+
+.contact__right > div > div > span:first-child{
+    font-weight: 800;
+}
+

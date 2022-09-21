@@ -1,0 +1,42 @@
+ .hero-container {
+     position: relative;
+     width: 100%;
+     background-image: url("../../assets/hero-slider.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .hero {
+     color: #fff;
+     padding: 3rem 2rem;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .hero>h2 {
+     font-size: 3rem;
+     font-weight: bold;
+ }
+
+ .cta {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .cta>span {
+     margin-top: .6rem;
+ }
+
+ .hero>a {
+     font-size: 1rem;
+     padding: .75rem 1.5rem;
+     margin-top: 2rem;
+ }
+
+ .curve {
+     position: absolute;
+     width: 100%;
+     bottom: -1rem;
+     text-align: center;
+ }

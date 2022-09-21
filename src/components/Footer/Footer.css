@@ -1,0 +1,30 @@
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem;
+    border-top: 1px solid black;
+}
+
+.footer__social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer__social>span>svg{
+    width: 2rem;
+    height: 2rem;
+}
+
+.footer__social>span:first-child>svg{
+    fill: #3b5998 ;
+
+}
+.footer__social>span:last-child>svg{
+    fill: #C13584;
+}

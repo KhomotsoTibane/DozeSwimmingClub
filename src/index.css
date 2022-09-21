@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito:wght@400;500;700;800&family=Poppins:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Nunito', sans-serif;
+  
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+:root{
+--color-dark:#282828;
+--color-light-pink: #fcd2f1;
+--color-light-blue: #ade8f7;
+--color-light-yellow: #fff3ae;
+--fourth-color: #2c7bd6;
+--color-black: #000000;
+--color-gray: #eef1f5;
+--color--white: #ffffff;
+--color--pale-pink: #f78da7;
+--color--vivid-red: #cf2e2e;
+--color--luminous-vivid-orange: #ff6900;
+--color--luminous-vivid-amber: #fcb900;
+--color--light-green-cyan: #7bdcb5;
+--color--vivid-green-cyan: #00d084;
+--color--pale-cyan-blue: #8ed1fc;
+--color--vivid-cyan-blue: #0693e3;
+--color--vivid-purple: #9b51e0;
+
+--container-width-lg:75%;
+--container-width-md:86%;
+--container-width-sm:90%;
+
+--transition:  all 300ms ease;
+
+}
+
+body{
+  font-size: 1rem;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+img{
+  object-fit: cover;
+  height: auto;
+  max-width: 100%;
+}
+
+.btn{
+  width: max-content;
+  border-radius: 2rem;
+  border: none;
+  color:#000;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #fcd2f1;
+}
+
+section {
+  margin-top: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+/*Media queries medium devices*/
+@media screen and (max-width:1025px){
+    
+
+
+}
+
+/*Media queries small devices*/
+@media screen and (max-width:600px){
+  
+
+}
