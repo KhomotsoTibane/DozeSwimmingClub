@@ -1,6 +1,10 @@
 header {
+    position: fixed;
+    top: 0;
     width: 100%;
     color: #fff;
+    backdrop-filter: blur(15px);
+    z-index: 99;
 }
 
 nav {
@@ -22,9 +26,14 @@ nav {
     object-fit: contain;
 }
 
-.header__logo>span{
+.header__logo>span {
     font-size: 1.1rem;
     font-weight: bold;
+    color: var(--color-dark);
+}
+
+.header__menu-links {
+    display: none;
 }
 
 .header__navbar-menu-mobile {
@@ -36,7 +45,7 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: var(--color-gray);
-    
+
 }
 
 .header__navbar-menu-mobile>svg {
@@ -90,99 +99,68 @@ nav {
     text-transform: uppercase;
     font-weight: 500;
     color: var(--color-dark);
-  
+
 }
 
+/* 
 
-
-@media only screen and (max-width:650px) {
+@media only screen and (max-width:820px) {
     .header__menu-links {
         display: none;
     }
 }
 
-/* 
+@media only screen and (max-width:1024px) {
+    header {
+        color: var(--color-dark);
+    }
 
-.header__contact{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: .5rem 1.5rem .2rem;
-}
+    nav {
+        margin-top: .5rem;
+        padding: 0rem 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
 
-.header__address{
-    display: flex;
-    gap: 1.5rem;
-    align-items: center;
-}
+    .header__logo {
+        display: flex;
+        align-items: center;
+    }
 
-.header__address > p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: .5rem;
-}
-
-.header__address > p >svg{
-    fill:white
-}
-.header__social-media{
-    display: flex;
-    gap: 1rem;
-    color: var(--accent-color);
-}
-
-.header__social-media >svg:hover{
-    transform: scale(1.1);
-    
-}
-
-nav{
-    margin-top: .5rem;
-    padding: 0rem 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-}
-
-.header__logo{
-    display: flex;
-    align-items: center;
-}
-
-.header__logo>img{
+    .header__logo>img {
         width: 3rem;
         height: 3rem;
         object-fit: contain;
-}
+    }
 
-.header__menu> ul{
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    align-items: center;
-}
+    .header__menu>div>ul {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        align-items: center;
+    }
 
-.header__menu> ul > li > a:hover{
-    color: pink;
-}
+    .header__menu>div>ul>li>a:hover {
+        color: pink;
+    }
 
 
-.header__phone > a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: .5rem;
-    padding: .5rem 1.5rem;
-}
+    .header__menu-links {
+        flex: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: .5rem 1.5rem .2rem;
+    }
 
-.toggle-menu{
-    display: none;
-}
+    .header__navbar-menu-mobile {
+        display: none;
+    }
+} */
 
-*/
 
 
 

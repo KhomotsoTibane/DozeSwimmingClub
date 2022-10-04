@@ -17,7 +17,7 @@ const Contact = () => {
           <div>
             <MdLocationOn/>
             <div>
-              <span>Location</span><span>Earth</span><span>Gauteng</span>
+              <span>Location</span><span>Pretoria</span><span>Gauteng</span>
             </div>
           </div>
           <div>

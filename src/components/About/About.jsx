@@ -27,9 +27,9 @@ const About = () => {
             <a href="#schedule">view schedule <AiOutlineArrowRight /></a>
             <div>
               <motion.img
-                initial={{ x: 0 , }}
-                whileInView={{ x: -70, y:0 }}
-                transition={{ type: 'tween', duration: 1, ease: "linear" }}
+                // initial={{ x: 0 , }}
+                // whileInView={{ x: -70, y:0 }}
+                // transition={{ type: 'tween', duration: 1, ease: "linear" }}
                 src={About1} alt="" />
             </div>
           </div>
@@ -39,9 +39,9 @@ const About = () => {
             <a href="#schedule">view schedule <AiOutlineArrowRight /> </a>
             <div>
               <motion.img
-                initial={{ x: 0 }}
-                whileInView={{ x: -70 }}
-                transition={{ type: 'tween', duration: 1, ease: "linear" }}
+                // initial={{ x: 0 }}
+                // whileInView={{ x: -70 }}
+                // transition={{ type: 'tween', duration: 1, ease: "linear" }}
                 src={About2} alt="" />
             </div>
           </div>
@@ -51,9 +51,9 @@ const About = () => {
             <a href="">view more <AiOutlineArrowRight /></a>
             <div>
               <motion.img
-                initial={{ x: 0 }}
-                whileInView={{ x: -70, y:25 }}
-                transition={{ type: 'tween', duration: 1, ease: "linear" }}
+                // initial={{ x: 0 }}
+                // whileInView={{ x: -70, y:25 }}
+                // transition={{ type: 'tween', duration: 1, ease: "linear" }}
                 src={About3} alt="" />
             </div>
           </div>

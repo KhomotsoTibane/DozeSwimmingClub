@@ -1,28 +1,19 @@
-
-.gallery{
+.gallery {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 3rem 2rem;
-    gap:1rem
+    gap: 1rem
 }
 
-.gallery>h1{
+.gallery>h1 {
     font-weight: 800;
     font-size: 3rem;
     text-align: center;
 }
 
-.gallery-container{
-    /* flex: 1 1;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    grid-auto-rows:300px;
-    padding: 0 1rem;
-    max-height: 700px; */
-
+.gallery-container {
     margin-top: 1rem;
     display: flex;
     flex-direction: column;
@@ -31,7 +22,7 @@
     height: max-content;
 }
 
-.gallery-col{
+.gallery-img-group {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,22 +30,61 @@
     gap: 1.5rem;
 }
 
-/* .gallery-container> div:nth-child(1){
-    margin-top: 9rem;
-}
-.gallery-container> div:nth-child(2){
-    margin-top: 6rem;
-}
-
-.gallery-container> div:nth-child(3){  
-    margin-top: 4rem;
-}
-.gallery-container> div:nth-child(4){
-    margin-top: 1rem;
-} */
-
-.gallery-col>img{
-    border-radius: 25px;
-    width: 20rem;
+.gallery-img-group>img {
+    border-radius: 10px;
+    width: 100%;
     height: 20rem;
+    
+}
+
+@media screen and (min-width:820px) {
+
+    .gallery-container {
+        margin-top: 1rem;
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 1.5rem;
+        height: max-content;
+    }
+
+    .gallery-img-group>img {
+        border-radius: 25px;
+        width: 30rem;
+        height: 30rem;
+    }
+}
+
+
+@media screen and (min-width:1025px) {
+
+    .gallery-container {
+        flex: 1 1;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        grid-auto-rows: 300px;
+        padding: 0 1rem;
+        max-height: 700px;
+    }
+
+    .gallery-col>img {
+        border-radius: 25px;
+        width: 30rem;
+        height: 30rem;
+    }
+    .gallery-container> div:nth-child(1){
+        margin-top: 9rem;
+    }
+    .gallery-container> div:nth-child(2){
+        margin-top: 6rem;
+    }
+    
+    .gallery-container> div:nth-child(3){  
+        margin-top: 4rem;
+    }
+    .gallery-container> div:nth-child(4){
+        margin-top: 1rem;
+    }
 }

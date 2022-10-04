@@ -27,19 +27,21 @@
     border: 1px solid lightgray;
     border-radius: 25px;
     display: flex;
+    align-items: center;
     flex-direction: column;
-    gap: 1.5rem;
-    padding: 2rem;
+    gap: 1rem;
     overflow: hidden;
-    height: 50vh;
+    height: 45vh;
 }
 
 .card>h1 {
     font-size: 1.5rem;
+    padding: 1rem
 }
 
 .card>span {
     line-height: 1.5rem;
+    padding: 1rem;
 }
 
 
@@ -48,27 +50,52 @@
     align-items: center;
     gap: .5rem;
 }
+.card>div{
+    height: max-content;
+}
 
-.card:nth-child(1)>div>img {
+.card>div>img{
+    object-fit: cover;
+}
+
+/* .card:nth-child(1)>div>img {
     position: absolute;
     border-radius: 10% 0 10% 10%;
     right: -5.5rem;
     bottom: -4rem;
-    transform: rotate(-20deg)
-}
+    transform: rotate(-20deg);
+} */
 
-.card:nth-child(2)>div>img {
+/* .card:nth-child(2)>div>img {
     position: absolute;
     border-radius: 10% 0 10% 10%;
     right: -5.5rem;
     bottom: -4rem;
-    transform: rotate(-20deg)
-}
+    transform: rotate(-20deg);
+} */
 
-.card:nth-child(3)>div>img {
+/* .card:nth-child(3)>div>img {
     position: absolute;
     border-radius: 10% 0 10% 10%;
     right: -5.5rem;
     bottom: -4.5rem;
-    transform: rotate(-20deg)
+    transform: rotate(-20deg);
+} */
+
+
+@media screen and (max-width:820px){
+    .card:nth-child(1)>div>img {
+        right: -8rem;
+        bottom: -8rem;
+    }
+    
+    .card:nth-child(2)>div>img {
+        right: -8rem;
+        bottom: -8rem;
+    }
+    
+    .card:nth-child(3)>div>img {
+        right: -8rem;
+        bottom: -11rem;
+    }
 }

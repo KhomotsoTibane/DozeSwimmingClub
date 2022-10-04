@@ -24,19 +24,19 @@ const Gallery = () => {
         </motion.div>
         <h1>A closer look at our family ❤️</h1>
         <div className="gallery-container">
-          <div className="gallery-col">
+          <div className="gallery-img-group">
             <img src={Gallery1} alt="" />
             <img src={Gallery2} alt="" />
           </div>
-          <div className="gallery-col">
+          <div className="gallery-img-group">
             <img src={Gallery3} alt="" />
             <img src={Gallery4} alt="" />
           </div>
-          <div className="gallery-col">
+          <div className="gallery-img-group">
             <img src={Gallery5} alt="" />
             <img src={Gallery6} alt="" />
           </div>
-          <div className="gallery-col">
+          <div className="gallery-img-group">
             <img src={Gallery7} alt="" />
             <img src={Gallery8} alt="" />
           </div>

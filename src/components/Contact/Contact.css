@@ -27,7 +27,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    align-items: center;
     gap: 2rem;
 }
 
@@ -38,10 +39,11 @@
 
 
 .contact__right > div{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:1rem;
+    gap:2rem;
 
 }
 
@@ -66,6 +68,7 @@
 }
 
 .contact__right > div > div{
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     gap:.2rem;
@@ -77,3 +80,5 @@
     font-weight: 800;
 }
 
+
+ 

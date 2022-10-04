@@ -1,7 +1,7 @@
 #schedule {
     background: var(--color-gray);
     position: relative;
-    gap: 5rem;
+    gap: 6rem;
 }
 
 .schedule {
@@ -116,4 +116,45 @@
 }
 
 
+@media screen and (min-width:820px) {
 
+    .schedule {
+        padding: 9rem 2rem;
+    }
+    .wave-bottom {
+        bottom: -4rem;
+    } 
+}
+
+
+@media screen and (min-width:1025px) {
+
+    .gallery-container {
+        flex: 1 1;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        grid-auto-rows: 300px;
+        padding: 0 1rem;
+        max-height: 700px;
+    }
+
+    .gallery-col>img {
+        border-radius: 25px;
+        width: 30rem;
+        height: 30rem;
+    }
+    .gallery-container> div:nth-child(1){
+        margin-top: 9rem;
+    }
+    .gallery-container> div:nth-child(2){
+        margin-top: 6rem;
+    }
+    
+    .gallery-container> div:nth-child(3){  
+        margin-top: 4rem;
+    }
+    .gallery-container> div:nth-child(4){
+        margin-top: 1rem;
+    }
+}
